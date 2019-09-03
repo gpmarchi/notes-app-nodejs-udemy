@@ -54,12 +54,12 @@ const listNotes = () => {
 
 const saveNotes = notes => {
   const jsonData = JSON.stringify(notes);
-  fs.writeFileSync("./notes.json", jsonData);
+  fs.writeFileSync("./data/notes.json", jsonData);
 };
 
 const loadNotes = () => {
   try {
-    const dataBuffer = fs.readFileSync("./notes.json");
+    const dataBuffer = fs.readFileSync("./data/notes.json");
     const jsonData = dataBuffer.toString();
     return JSON.parse(jsonData);
   } catch (error) {

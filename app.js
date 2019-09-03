@@ -1,5 +1,5 @@
 const yargs = require("yargs");
-const notes = require("./notes");
+const notes = require("./src/notes");
 
 const log = console.log;
 
