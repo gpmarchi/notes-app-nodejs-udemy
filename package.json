@@ -4,7 +4,9 @@
   "description": "Notes app exercise from Udemy course The Complete Node.js Developer Course (3rd Edition)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "play": "nodemon playground.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +23,12 @@
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.2",
     "prettier": "^1.18.2"
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "validator": "^11.1.0"
+    "validator": "^11.1.0",
+    "yargs": "^14.0.0"
   }
 }

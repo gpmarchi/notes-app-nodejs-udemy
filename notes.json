@@ -1,0 +1,7 @@
+[
+  { "title": "this is my title", "body": "this is the content of my note" },
+  { "title": "new note", "body": "this is the new content of new note" },
+  { "title": "test note", "body": "this is the test note" },
+  { "title": "test note 2", "body": "this is the test note" },
+  { "title": "test note 3", "body": "this is the test note" }
+]
